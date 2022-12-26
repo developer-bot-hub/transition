@@ -1,0 +1,26 @@
+*{
+	font-family: 'Raleway', cursive;
+	font-weight: 100px;
+    color: #75a5b8;
+}
+.container {
+    background: #e0c323;
+    padding: 20px 5px;
+}
+.box {
+    background: #000;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    color: aqua;
+    transition: transform 1s;
+    transform: translate(20px);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.box:hover {
+    transform: scaleX(2) translate(50px);
+}
+b {
+    margin: auto;
+}
